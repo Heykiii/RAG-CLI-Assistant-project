@@ -98,9 +98,9 @@ def answer_question(question, docs_path="./docs"):
     qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
     return qa_chain.run(question)
 
-# -----
 # 4. Command-line interface
 # -----
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="CLI QA Assistant using LangChain + OpenAI")
     parser.add_argument("--question", type=str, required=True, help="Your question")

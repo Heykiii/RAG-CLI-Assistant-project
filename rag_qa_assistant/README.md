@@ -12,7 +12,7 @@ This is a simple command-line tool that answers questions using your own documen
 ## File Structure
 
 ```
-project/
+rag_qa_assistant/
 ├── qa.py           # Main program
 ├── ingest.py       # (optional) Script to build the vector store
 ├── vector_store/   # Stores the FAISS index

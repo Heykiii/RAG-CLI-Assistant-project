@@ -17,7 +17,6 @@ rag_qa_assistant/
 ├── ingest.py       # (optional) Script to build the vector store
 ├── vector_store/   # Stores the FAISS index
 ├── docs/           # Put your notes and docs here
-└── README.md       # This file
 ```
 
 ## Quick Start
